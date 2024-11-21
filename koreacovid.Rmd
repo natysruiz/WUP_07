@@ -37,7 +37,13 @@ we will use the helper file CAT~CAT
 
 ## Graphical results - use ggplot commands to do this  
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
+```
+          
+The barchart shows that more males died than females. This shows that dying is dependent on sex. 
 
   
 
