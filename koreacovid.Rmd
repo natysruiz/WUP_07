@@ -27,9 +27,12 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
-
-
-
+$H_O$ There is no difference in dying depending on sex          
+$A_O$ There is a difference in dying depending on sex
+         
+result~sex     
+Categorical~categorical       
+we will use the helper file CAT~CAT   
 
 
 ## Graphical results - use ggplot commands to do this  
