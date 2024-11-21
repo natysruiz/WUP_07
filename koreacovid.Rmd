@@ -57,8 +57,26 @@ The numerical results shows that amoung the people who dies there was 64% of mal
 
 ## Inferential results 
 
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+         
+The inferential results shows that the chi-squared test has a p-value of 0.001. And the Fishers exact test has a p-value of 0.00009. Because both of the p-values are under the acceptable rate of 0.05 we will reject the null hypothesis. The Fishers Exact test also states that men are 2.3 more times to die of Covid19 in Korea than women are.
 
 
 ## Conclusions
 
+$H_O$ There is no difference in dying depending on sex         
+$A_O$ There is a difference in dying depending on sex
+         
+This data is from Korea in 2022          
+result~sex     
+Categorical~categorical       
+we will use the helper file CAT~CAT       
+
+We Will reject the null hypothesis because...           
+The barchart shows that more males died than females. This shows that dying is dependent on sex.    
+The numerical results shows that amoung the people who dies there was 64% of males who died and 36% of females who died.               
+The inferential results shows that the chi-squared test has a p-value of 0.001. And the Fishers exact test has a p-value of 0.00009. Because both of the p-values are under the acceptable rate of 0.05 we will reject the null hypothesis. The Fishers Exact test also states that men are 2.3 more times to die of Covid19 in Korea than women are.         
