@@ -46,14 +46,14 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 The barchart shows that more males died than females. This shows that dying is dependent on sex. 
 
   
-
-
-
-
-
-  
 ## Numerical results
-
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+          
+The numerical results shows that amoung the people who dies there was 64% of males who died and 36% of females who died.
 
 ## Inferential results 
 
